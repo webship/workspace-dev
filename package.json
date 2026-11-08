@@ -1,12 +1,14 @@
 {
-  "name": "@webship/workspace-dev",
-  "version": "1.0.0",
+  "name": "@webship.co/workspace-dev",
+  "version": "1.0.0-alpha1",
   "description": "The Dev workspace for Webship Workspace: the `dev/` folder (type sites), its settings file, its 33 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
-  "private": true,
   "license": "ISC",
-  "repository": "github:webship/workspace-dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webship/workspace-dev.git"
+  },
   "files": [
     "dist/src",
     "commands",
@@ -74,7 +76,10 @@
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
-    "@webship/workspace-plugin-api": "github:webship/workspace-plugin-api#1.0.x",
+    "@webship.co/workspace-plugin-api": "^1.0.0-alpha1",
     "typescript": "^5.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
