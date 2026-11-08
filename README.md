@@ -1,4 +1,4 @@
-# @webship/workspace-dev
+# @webship.co/workspace-dev
 
 The **Dev** workspace of the [Webship Workspace](https://github.com/webship/workspace) dashboard:
 the `dev/` folder (type `sites`), its settings file (`core/config/workspace.dev.settings.yml`),
