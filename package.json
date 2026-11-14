@@ -26,6 +26,14 @@
   "workspacePlugin": {
     "name": "dev",
     "label": "Dev",
+    "suggests": {
+      "commands": [
+        {
+          "command": "composer",
+          "hint": "https://getcomposer.org/download/"
+        }
+      ]
+    },
     "workspace": {
       "key": "dev",
       "settingsTemplate": "config/workspace.dev.settings.yml",
