@@ -50,3 +50,13 @@ bash cmd-webships2-0-x-project.sh                     # Webships 2.0.x
 
 Every one locates the workspace from its own path, so there is nothing to export and nothing to
 install. `--help` on any of them lists its arguments.
+
+## AI items for this folder
+
+The plugin of this folder (`@webship.co/workspace-dev`) places its own AI items in the AI folders of the
+workspace, when they are active:
+
+- `dev-site-builder` (`ai-agents/`): Builds, clones, backs up and removes the sites of `dev/` with the folder's commands, and puts the Webship-js testing stack on them
+- `dev-workflow` (`ai-skills/`): How work is done in `dev/`: every builder and tool with its flags, the order of work, the settings keys
+- `/dev-build` (`ai-commands/`): `/dev-build <builder> <name>`: picks the builder, checks the name is free, builds the site and says what goes on from there
+- `dev-build-and-test` (`ai-prompts/`): A new session that builds a site with a builder of the folder and runs its first Webship-js feature
