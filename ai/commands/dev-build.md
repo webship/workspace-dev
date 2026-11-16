@@ -65,3 +65,9 @@ bash cmd-tools-remove.sh <name>             # when the site is no longer needed
 
 Ask whether to set the testing stack up now. For more than one build, hand over to the
 `dev-site-builder` agent; the `dev-workflow` skill lists every command of the folder.
+
+Before you write or change a scenario, or read a failed run, read the book *Automated Functional
+Testing Recipes* (its `README.md`, then the matching chapter):
+`.claude/automated-functional-testing-recipes/` in the project,
+`~/.claude/automated-functional-testing-recipes/`, or
+https://github.com/webship/webship-js-ai-agent/tree/2.0.x/automated-functional-testing-recipes
